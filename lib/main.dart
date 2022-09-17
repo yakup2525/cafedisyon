@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'view/view.dart';
 void main(){
-  runApp(Cafedisyon());
+  runApp(const Cafedisyon());
 }
 
 class Cafedisyon extends StatelessWidget {
@@ -13,7 +13,7 @@ class Cafedisyon extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
