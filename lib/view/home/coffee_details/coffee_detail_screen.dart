@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../home_page/home_page_model/cofee_model.dart';
+import '../category_detail/model/cofee_model.dart';
 
 class CoffeeDetails extends StatefulWidget {
   final int index;
